@@ -28,5 +28,6 @@ public class Flipkart {
         for(OnOrderPlacedSubscriber onOrderPlacedSubscriber : onOrderPlacedSubscribers){
             onOrderPlacedSubscriber.announceOrderPlaced();
         }
+
     }
 }
